@@ -1,0 +1,27 @@
+{
+  "name": "gradmin",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amltv/gradmin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amltv/gradmin/issues"
+  },
+  "homepage": "https://github.com/amltv/gradmin#readme",
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.0.0-beta.41"
+  },
+  "devDependencies": {
+    "webpack": "^4.16.4"
+  }
+}
